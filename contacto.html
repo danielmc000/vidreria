@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulario de contacto</title>
+
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<section>
+
+</section>
+<br>
+<br>
+<br>
+<br>
+
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="index.html" class="nav__logo" style="color: black;">S.Vellvista</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="index.html" class="nav__link" style="color: black;" >Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link" style="color: black;">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="nosotros.html" class="nav__link" style="color: black;">Nosotros</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link active-link" style="color: black;">Contacto</a>
+                    </li>
+                </ul>
+
+               
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-function-line"></i>
+            </div>
+        </nav>
+    </header>
+
+    <section class="form_wrap">
+
+        <section class="cantact_info">
+            <section class="info_title">
+                <span class="fa fa-user-circle"></span>
+                <h2>INFORMACIÓN<br>DE CONTACTO</h2>
+            </section>
+            <section class="info_items">
+                <p><span class="fa fa-envelope"></span> dm757623@gmail.com</p>
+                <p><span class="fa fa-mobile"></span> +569 784 648 37</p>
+            </section>
+        </section>
+
+        <form action="enviar.php" method="post" class="form_contact">
+            <h2>Envía un mensaje</h2>
+            <div class="user_info">
+                <label for="names">Nombres *</label>
+                <input type="text" id="names" name="nombre" required>
+
+                <label for="phone">Teléfono / Celular</label>
+                <input type="text" id="phone" name="telefono">
+
+                <label for="email">Correo electrónico *</label>
+                <input type="text" id="email" name="correo" required>
+
+                <label for="mensaje">Mensaje *</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+
+                <input type="submit" value="Enviar Mensaje" id="btnSend">
+            </div>
+        </form>
+
+    </section>
+
+    <footer class="footer section">
+        <div class="footer__container container grid">
+            <div class="footer__content grid">
+                <div class="footer__data">
+                    <h3 class="footer__title">S.Vellavista</h3>
+                    <p class="footer__description">Empresa con años <br> en el mercado
+                         regional<br> 
+                    </p>
+                    <div>
+                        <a href="https://www.facebook.com/" target="_blank" class="footer__social">
+                            <i class="ri-facebook-box-fill"></i>
+                        </a>
+                        <a href="https://twitter.com/" target="_blank" class="footer__social">
+                            <i class="ri-twitter-fill"></i>
+                        </a>
+                        <a href="https://www.instagram.com/" target="_blank" class="footer__social">
+                            <i class="ri-instagram-fill"></i>
+                        </a>
+                        <a href="https://www.youtube.com/" target="_blank" class="footer__social">
+                            <i class="ri-youtube-fill"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer__data">
+                    <h3 class="footer__subtitle">Metodos de pago</h3>
+                    <ul>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">Mastercard</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">Visa</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">Tranferencias</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">Efectivo</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer__data">
+                    <h3 class="footer__subtitle">Horario</h3>
+                    <ul>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">Lunes a Viernes</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">Mañana 08:30 a 13:00</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">Tarde 14:30 a 19:00</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer__data">
+                    <h3 class="footer__subtitle">Otros</h3>
+                    <ul>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">Cobertura de nuestro servicios</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">Puerto montt</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">Alrededores</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer__rights">
+                <p class="footer__copy">&#169; 2021 Dkcn. All rigths reserved.</p>                    
+            </div>
+        </div>
+    </footer>
+
+
+      <!--========== SCROLL UP ==========-->
+      <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-line scrollup__icon"></i>
+    </a>
+
+    <!--=============== SCROLL REVEAL===============-->
+    <script src="js/scrollreveal.min.js"></script>
+    
+    <!--=============== SWIPER JS ===============-->
+    <script src="js/swiper-bundle.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="js/main.js"></script>
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
